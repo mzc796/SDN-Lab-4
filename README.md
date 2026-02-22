@@ -39,6 +39,7 @@ Installation Disc: [ubuntu-22.04.4-desktop-amd64.iso](https://old-releases.ubunt
    python3 -c "from scapy.all import *; print('Scapy OK')"
    ```
 4. Send UDP packets from Host 1 and let Host 2 listen to the incoming packets
+   
    (1) Open hosts' terminals. In the mininet terminal:
    ```
    xterm h1 h2
