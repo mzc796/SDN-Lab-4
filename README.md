@@ -77,3 +77,9 @@ Installation Disc: [ubuntu-22.04.4-desktop-amd64.iso](https://old-releases.ubunt
 6. Now, only use 1 flow entry on each switch to forward both UDP and TCP packets.
    
 7. Suppose switch 1 is the monitor, set one flow entry to forward the packets of this TCP connection to the controller, but not other TCP connections.
+
+   Refer to `tcp_filter.sh`
+   
+8. We can also set a flow entry to forward packets to the controller and a normal output port.
+
+   Refer to `tcp_mirror.sh`
