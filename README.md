@@ -76,4 +76,4 @@ Installation Disc: [ubuntu-22.04.4-desktop-amd64.iso](https://old-releases.ubunt
    
 6. Now, only use 1 flow entry on each switch to forward both UDP and TCP packets.
    
-7. Start another TCP connection between Host 1 and Host 2. Support switch 1 is the monitor, set one flow entry to forward the packets of this connection to the controller.
+7. Suppose switch 1 is the monitor, set one flow entry to forward the packets of this TCP connection to the controller, but not other TCP connections.
