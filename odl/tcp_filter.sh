@@ -17,7 +17,7 @@ curl -u admin:admin -X PUT "http://127.0.0.1:8181/rests/data/opendaylight-invent
 		 "ip-match": {
 	 		"ip-protocol":6
 	 	  },
-		 "tcp-destination-port": 12,
+		 "tcp-destination-port": 12
              },
              "cookie": 1,
              "flow-name": "flow1",
