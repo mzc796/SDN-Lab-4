@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "sending udp flow entry to $1, table $2, entry $3, dst $4, outport $5, priority $6"
+echo "sending tcp flow entry to switch $1, table $2, entry $3, dst $4, outport $5, priority $6"
 curl -u admin:admin -X PUT "http://127.0.0.1:8181/rests/data/opendaylight-inventory:nodes/node=$1/flow-node-inventory:table=$2/flow=$3" -H "content-type: application/json" -d '{
      "flow-node-inventory:flow": [
          {
