@@ -1,5 +1,5 @@
 # SDN-Lab-4
-## Attribution:
+
 This lab uses OpenDaylight (EPL) and Mininet for SDN experimentation.
 All lab instructions and scripts in this repository are original and for educational use.
 
