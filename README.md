@@ -1,7 +1,28 @@
 # SDN-Lab-4
-Practise flow entry setup
+## Attribution:
+This lab uses OpenDaylight (EPL) and Mininet for SDN experimentation.
+All lab instructions and scripts in this repository are original and for educational use.
 
 Continue with SDN-Lab-3, we send various packet types from hosts and configure corresponding flow entries on the switches. 
+
+## Learning Objectives
+
+By the end of this lab, students will be able to:
+
+* Configure protocol-specific flow entries (UDP, TCP).
+
+* Design match conditions based on IP, protocol, and port fields.
+
+* Understand why different traffic types require different flow rules.
+
+* Consolidate multiple protocols into a single generalized flow entry.
+
+* Selectively forward specific flows to the controller.
+
+* Implement traffic mirroring using OpenFlow actions.
+
+* Reason about match granularity and flow table efficiency.
+
 ## Virtual Machine Summary
 Memory: >= 8GB
 
